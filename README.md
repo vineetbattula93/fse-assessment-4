@@ -12,7 +12,7 @@ The product search API you created in Assessment 2 needs an Angular front end.
 - Finish the application so that it consumes the ProductSearch API and feeds the template in the ProductSearch Component.
 
 ## Time to Complete
-- You have 2 hour2 to complete this assessment.  (Ends at 5pm.)
+- You have 2 hours to complete this assessment.  (Ends at 5pm.)
 - Once you are done, you have completed the S2 FSD training!  Congratulations!!
 
 ## Stories
