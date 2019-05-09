@@ -54,13 +54,13 @@ coming from the ProductSearch API.
 - ONLY implement what is specified above. If you aren’t sure whether something is in scope, ask!
 
 ## How to Submit Your Work
-- Fork this repo to your own github account.
+- **Fork** this repo to your own github account.
 - Check out your new repo into your IDE.
 - Commit your code often and when you're done with the assessment.
 - Don't change the name of the repo.
 
 ## Grading Rubric
--   5% - Project completed.
+-  5% - Project completed.
 - 10% - Code compiles, builds and runs.
 - 10% - Unit tests passed.
 - 15% - Followed instructions fully.
