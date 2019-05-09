@@ -46,6 +46,7 @@ coming from the ProductSearch API.
 - Make small, meaningful git commits.
 - Write unit tests!!
 - Use linting.
+- Use the product search service at https://github.com/CognizantFSE/fse-assessment-4-product-search-service.git as your backing service.  See the README with the search service for details on how to start/use it.
 
 ## Notes
 - Write your tests in the spec file.
