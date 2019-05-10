@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ProductSearchComponent } from './product-search/product-search.component';
 
 
 export const routes: Routes = [
@@ -8,6 +9,7 @@ export const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {path:'shop',component:ProductSearchComponent}
 ];
 
 @NgModule({

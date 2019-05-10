@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {ProductSearchService} from '../services/ProductSearchService';
+
 
 @Component({
   selector: 'app-product-search',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductSearchComponent implements OnInit {
 
-  constructor() { }
+  constructor(private productService: ProductSearchService) { }
 
   ngOnInit() {
+    this.productService.getProducts().then((data) => {
+      console.log(JSON.stringify(data));
+      
+   });
+
   }
 
 }
